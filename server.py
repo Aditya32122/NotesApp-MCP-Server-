@@ -323,3 +323,20 @@ if __name__ == "__main__":
     import uvicorn
     print("Starting Enhanced MCP Server on http://localhost:8000")
     uvicorn.run("server:mcp", host="0.0.0.0", port=8000)
+
+
+
+# settings.json
+    #          "Notes App MCP Server": {
+    #   "command": "C:\\Users\\adity\\.local\\bin\\uv.EXE",
+    #   "args": [
+    #     "run",
+    #     "--with",
+    #     "mcp[cli],requests",
+    #     "mcp",
+    #     "run",
+    #     "D:\\mcpdemo\\server.py"
+    #   ]
+    # }
+    #     }
+    # }
